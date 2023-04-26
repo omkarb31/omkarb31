@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Lab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="icon" type="image/x-icon" href="logo.png">
+<style>
+        .vertical {
+            border-left: 4px solid black;
+        }
+        .data{ 
+        max-width:1200px; 
+        position:relative;
+        padding: 50px 60px;
+        width:max-content;
+        }
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+            color: #fff;
+            background-color: #760574;
+        }
+        .brand{
+            margin-right: 10px;        
+        }
+    </style>
+</head>
+<body>
+  <div class="m-4">
+    <nav class="navbar navbar-light nav nav-pills flex-column flex-sm-row" style="background-color: #ddeeff;">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="logo.png" height="34" alt="RemoteLab">
+            </a>
+            <h3 class="nav-item brand">Remote Lab</h3>
+            <a href="main.html" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link">List Of Projects</a>
+            <a href="#" class="nav-item nav-link">Contact Us</a>
+            <a href="#" class="nav-item nav-link" >About us</a>
+                <div class="navbar-nav ms-auto">
+                    <a href="index.php" class="nav-item nav-link" class="btn btn-outline-secondary">Login or Sign Up</a>
+                </div>
+        </div>
+    </nav>
+    <div class="data">
+      <img src="main.png" height="50%" width="100%" alt="main"  >
+      <h2>• Introduction: -</h2>
+        <p>&emsp;&emsp;&emsp;The Remote Laboratory represents an extension to the ways in which people use the internet. Most people use the internet to search for information, or perhaps make it available to others. The Remote Laboratory empowers students collect information from the physical world. Remote computer access to laboratory instruments allows undergraduate students to conduct actual experiments at any time and from any location. This technology greatly enhances the flexibility of laboratory education, and introduces students to the new paradigm of remote experimentation. Remote laboratory (also known as online laboratory) is the use of telecommunications to remotely conduct real (as opposed to virtual) experiments, at the physical location of the operating technology, whilst the scientist is utilizing technology from a separate geographical location. Remote laboratory comprehends one or more remote experiments.</p>
+
+        <h2>• Problem Statement:-</h2>
+        <p>&emsp;&emsp;&emsp;To design and develop the laboratory in such a way that the students can do the experiment from their desired location at the desired time so that the students can get practical knowledge instead of only theoretical knowledge.</p>
+
+
+        <h2>• Literature Survey: -</h2>
+        <p>&emsp;&emsp;&emsp;Lab-based courses play&#39;s an important role in every student&#39;s life. It is also said that “hands-on experience is at the heart of science learning. Lab courses have a strong impact on student&#39;s learning outcomes as student&#39;s actually evaluate the things and see how the things happen.</p>
+        <p>&emsp;&emsp;&emsp; The technology has become advanced in each and every field and Researchers have convincingly argued that information technology is changing the laboratory education. Mainly in electronics the nature and practices of laboratories has been changed by two new technology that is intensive automations and simulations. The relative effectiveness of the two new laboratories compared with traditional hands-on labs is rarely explored.</p>
+        <p>&emsp;&emsp;&emsp; First, research may look at hybrids of laboratories that are designed accomplish a portfolio of educational objectives. There is a fair amount of evidence that simulated and remote labs are effective in teaching concepts. There is still a shortage of data on whether such technologies are as effective as hands-on laboratories when it comes to teaching design skills. Those who advocate the use of hands-on labs might be more amenable to the use of simulated or remote technologies if all three technologies are clearly integrated as part of a curriculum in which goals such as teaching open-ended ACM Computing Surveys. Right now, the perception is that new technologies are competitors against current teaching techniques, and this sense is probably getting in the way of a more carefully considered educational evaluation. Second, the effectiveness of laboratories may be affected by how much students believe in them. Therefore, an understanding of presence, interaction, and belief may lead to better interfaces. Also, if belief proves important, then hybridapproaches might be contemplated, in which hands-on work is used at an early stage to build confidence in remote or simulated technology used in later teaching. Third, research might pay more attention to collaboration and sensemaking. The technology may change the way we can and should coordinate our work, and studies of such interactions may be productive in suggesting the kinds of educational processes that should accompany the lab technologies.</p>
+
+        <h2>• Block Diagram</h2>
+
+        <h2>• Components Description</h2>
+        <h3>A) Hardware:</h3>
+        <h4>1. ESP8266: -</h4>
+        <p>• The ESP8266 is a low-cost Wi-Fi development board, having tensilica L106 as 
+        microcontroller with built-in TCP/IP networking software, and high capability.<br>
+        • The ESP8266, designed and manufactured by Espressif Systems, contains the
+        crucialelements of a computer: CPU, RAM, networking (WIFI), and even a 
+        modern operating system and SDK.<br>
+        • That makes it an excellent choice for Internet of Things (IoT) projects of all kinds.<br>
+        </p>
+
+        <h4>2. Relay Module (generic): -</h4>
+        <p>• Relay is an electromechanical device that uses an electric current to open or close the contacts of a switch.<br>
+        • The single-channel relay module is much more than just a plain relay, it comprises of components that make switching and connection easier and act as indicators to show if the module is powered and if the relay is active or not.<br>
+        • Relay module have relay trigger pin for the input to active relay.<br></p>
+
+        <h4>3. Op-Amp (LM741)</h4>
+        <p>
+        • Op-Amp IC 741 or LM741 is one of the most used operational amplifier integrated circuits that perform both mathematical operations and amplification functions. This small chip mainly performs mathematical operations like 
+        addition, subtraction, multiplication, division, differentiation, integration, etc. in various circuits.<br>
+        • It is a high gain amplifier made up of BJT or FETS, which is often powered by both positive and negative supply voltage. It was first designed by Fairchild Semiconductor in the year 1963.<br>
+        • In this guide, we will learn about the Operational Amplifier IC or Op-Amp 741 or LM741 basics, characteristics, circuits, pins configuration & Applications. You can also check the LM358 Dual Audio Amplifier IC which has a pair of Op-Amp Circuit.<br>
+        </p>
+
+        <h2>• Proposed Work: -</h2>
+        <p>
+        We have divided our project in 3 technical parts.<br>
+        1. Hardware<br>
+        2. Embedded software<br>
+        3. Software<br></p>
+
+        <h4>1. Hardware</h4>
+        <p>
+        &emsp;&emsp;&emsp;We started the hardware part by learning the hardware components. In this we learnt about ESP8266 12e Wi-Fi module. We thought of using it as it has wireless connectivity and it can be operated remotely. In this we learnt about pins available, how to connect other components other hardware components to it.After that we controlled the LED using the general input output pins(GPIO). Also, we have learnt to control the relay module. First upon for the trial purpose we are going to take one experiment i.e., of non-inverting amplifier. Now the future plans are to make embedded software code for ESP8266 so that we can control Op-amp using ESP8266.
+        </p>
+
+        <h4>2. Embedded software</h4>
+        <p>
+        &emsp;&emsp;&emsp;First, we had written code for LED controlling using ESP8266.The code was written in such a way that it flashes the LED in each second.</p>
+
+        <p>
+        &emsp;&emsp;&emsp;As we are learning how to code ESP8266, our future plans are to implement logic to esp8266 in such a way that as if user make any change in values of resistor in our website that changes must replicated in our hardware.</p>
+       
+
+       <h4>3.Software:</h4>
+        <p>&emsp;&emsp;&emsp;For making the virtual connection between the user and the hardware in lab we planned to make website. The website will consist of login page in which the user will get two option weather to signing or signup. If the user is visiting for first time, then he will do signup. On clicking signup, he will be redirected to the page that takes the email id of the user as the input. After entering email-id the user will receive OTP on his entered email-id and he has to enter the OTP correctly then his account will be created.</p>
+        <p>&emsp;&emsp;&emsp;If the user is visiting website second time, then he has to click on login. On clicking on login, we will take the user ID and password from the user as input. If the email id and password match to the email id and password stored in database then we will open the menu page else user will get the message enter the details correctly.We will store the Gmail of all the users and the password entered by them using MySQL database where Gmail will be the primary key so that it should be unique i.e., one email-id will be valid for only one user. On reentering the same e-mail id, the user will get message the email id is already registered. Upon successful login user has to set the unique password which will be require whenever he/she wants to login. We will develop the website in such a way that the user will see the list of all experiments. Upon choosing one experiment the calendar will be available in which the user has to select date from the calendar that will be displayed on website. And on the selected date and time he will be able to perform his experiment.</p>
+
+        <h2>• Objectives:-</h2>
+        <p>
+        1) To provide practical knowledge to students which are even from rural area.<br>
+        2) To provide real lab experience to the student.<br>
+        3) To provide access of experiments from any place to the student.<br>
+        4) To make lab system independent of time means students can perform experiments in the selected time slot.<br>
+        </p>
+
+        <h2> • Methodology:-</h2>
+       <p>
+        1. User will Login to the Website, after successful login homepage will be displayed, if 
+        login fails then he/she will get directed to registration page.<br>
+        2. After the above process homepage will be opened which contains menu bar which contains 
+        lists of experiments.<br>
+        3. Then Book the slot for experiment of your choice and then you have to confirm the date 
+        and time according to the time slot available.<br>
+        4. User can perform experiment remotely which are setup in laboratory.<br>
+        5. User friendly website which gives brief knowledge about experiments and user can do any 
+        experiment from any location in there booking slot.<br></p>
+
+
+        <h2>• Expected Outcomes:-</h2>
+        
+        <p>The benefits of remote laboratories are predominantly in engineering education:<br>
+        1. Each student should get sufficient time to perform the experiment.
+        2. Student will be able to access various experiment from favorable locations as per there 
+        convenience.<br>
+        3. Each student should acquire practical knowledge effectively as they become familiar 
+        with the components of the experiment.<br>
+        4. Improve quality of experiment, as it can be repeated to clarify doubtful measurements in 
+        lab.<br>
+        </p>
+    </div>
+    
+    </div>
+</div>
+</body>
+</html>

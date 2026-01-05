@@ -132,19 +132,6 @@ Built and productionized a GenAI-powered sales analytics bot with multi-step age
 - 🗄️ Worked with SQL and NoSQL databases
 - 🔄 Built and maintained ETL workflows
 
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=omkarbasargi&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=omkarbasargi&layout=compact&theme=radical)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=omkarbasargi&theme=radical)
-
-</div>
 
 ---
 
@@ -171,5 +158,6 @@ I'm always open to interesting conversations and collaboration opportunities!
 ### ⭐ If you find my projects interesting, consider giving them a star!
 
 **Thanks for visiting! Have a great day! 😊**
+
 
 </div>
